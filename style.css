@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 30%;
+    max-height: 520px;
+    background: linear-gradient(to top, rgb(67, 182, 109), rgb(5, 243, 179));
+    margin: 50px auto 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    width: 85%;
+    height: 40px;
+    border: none;
+    margin-right: 5px;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchImg {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 15%;
+    height: 40px;
+
+}
+
+
+.statusImg {
+    width: 50%;
+    max-height: 200px;
+
+}
+
+.temp {
+    color: white;
+    font-size: 45px;
+}
+
+.city {
+    color: white;
+    font-size: 35px;
+}
+
+.humidity {
+    display: flex;
+    align-items: center;
+}
+
+.humidityData {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.humidityText {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.humidityImg {
+    width: 30%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+}
+
+.windImg {
+    width: 30%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.windData {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.windText {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+}
+
+.details {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+
+.windData {
+    text-align: left;
+}
+
+.information {
+    display: none;
+}
+
+.error {
+    display: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+}
